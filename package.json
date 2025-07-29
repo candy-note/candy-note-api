@@ -1,0 +1,16 @@
+{
+  "name": "candy-note-api",
+  "version": "0.1.0",
+  "module": "src/app/server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/app/server.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
