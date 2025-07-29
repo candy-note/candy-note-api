@@ -34,3 +34,10 @@ bun test
 - Unit: サービス、Zodスキーマ、関数（厚め）
 - API: 各エンドポイントの代表ケースのみ（200, 400, 404, etc）
 - Integration: DynamoDB Local を用いたスモークテスト（最小限）
+
+## 🗒️ lint
+
+```bash
+bun lint
+bun lint:fix  // Auto fix
+```
