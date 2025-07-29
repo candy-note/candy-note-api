@@ -5,10 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "bun run src/app/server.ts",
-    "test": "bun test"
+    "test": "bun test",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@eslint/js": "^9.32.0",
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "eslint": "^9.32.0",
+    "jiti": "^2.5.1"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
