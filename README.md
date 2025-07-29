@@ -7,6 +7,7 @@
 - [Hono](https://hono.dev/) — 軽量高速なWebフレームワーク
 - [Effect.ts](https://effect.website/) — 型安全な関数型エフェクトシステム
 - [Bun](https://bun.sh/) — 高速なJSランタイム
+  - Bun の入門マニュアル: https://zenn.dev/gatsby/books/0622aa61e0a3e8/viewer/7dec37
 - DynamoDB（本番用） / DynamoDB Local（開発・テスト）
 
 ## 📁 ディレクトリ構成
