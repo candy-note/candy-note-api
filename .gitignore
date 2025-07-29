@@ -1,0 +1,26 @@
+# node_modules/bun_modules
+node_modules
+bun.lockb
+
+# Logs
+logs
+*.log
+
+# Build output
+dist
+.cache
+
+# Local environment
+.env
+.env.*
+
+# Test coverage
+coverage
+
+# IDE
+.vscode
+.idea
+.DS_Store
+
+# DynamoDB Local
+.dynamodb/
