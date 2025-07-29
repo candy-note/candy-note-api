@@ -1,4 +1,4 @@
-import { app } from "./app";
+import { app } from './app';
 import { serve } from 'bun';
 
 serve({
