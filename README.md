@@ -1,0 +1,2 @@
+# candy-note-api
+candyNoteのAPIリポジトリです。
